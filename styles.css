@@ -168,10 +168,10 @@ margin: auto;
 
 }
 
-.important-to-share, .social-challenges {
+.important-to-share {
     display: flex;
     flex-wrap: wrap;
-    width: 750px;
+    width: 700px;
     margin: auto;
     font-size: 14px;
     font-family: arial;
@@ -179,8 +179,17 @@ margin: auto;
     padding: 0;
     justify-content: center;
 }
+.social-challenges {
 
+  display: flex;
+  width: 700px;
+  margin: auto;
+  font-size: 14px;
+  font-family: arial;
+  color: black;
+  padding: 0;
 
+}
 .Challenges {
   border: 2px dotted #2a9d8f;
   margin: 20px 10px;
