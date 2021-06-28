@@ -79,6 +79,12 @@ a {
 
 }
 
+main{
+max-width: 1000px;
+margin: auto;
+
+}
+
 #main-header{
  border:2px dotted #e76f51;
  padding: 15px;
@@ -101,11 +107,10 @@ a {
 }
 #definition {
   font-size: 12px;
-  color: #e76f51;
+  color:black;
   font-family: arial;
   display: block;
-  width: 125px;
-  margin: 10%;
+  margin:auto;
 
 
 }
@@ -155,37 +160,39 @@ a {
 
 .facts{
   border: 3px dotted #e76f51;
-  margin: 40px 0px 40px 0px;
+  margin: 40px 15px;
   padding: 20px;
   font-size: 14px;
   font-family: arial;
+  width: 250px;
 
 }
 
-.important-to-share{
-  width: 300px;
-  margin: auto;
-  font-size: 14px;
-  font-family: arial;
-  color: black;
-
+.important-to-share, .social-challenges {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    margin: auto;
+    font-size: 14px;
+    font-family: arial;
+    color: black;
+    padding: 0;
+    justify-content: center;
 }
+
 
 .Challenges {
   border: 2px dotted #2a9d8f;
-  margin: 20px 0px 30px 0px;
+  margin: 20px 10px;
   padding: 10px;
   text-align: center;
   font-weight: bold;
   list-style: none;
+  width: 250px;
 }
-.social-challenges{
-  width: 175px;
-  margin: auto;
-  color: black;
-  font-size: 14px;
-  font-family: arial;
-}
+
+
+
 
 #learn-more-links{
 
